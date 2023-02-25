@@ -1,0 +1,58 @@
+body {
+    background-color: #f8f9fa;
+  }
+  /* Set padding for main content area */
+  .main-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /* Set margin for the left menu */
+  .left-menu {
+    margin-top: 60px;
+    padding-left: 20px;
+  }
+  /* Set height and width for the banner image */
+  .banner-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* Style the form labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Style the form input fields and textarea */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 50%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .one{
+    position: relative;
+    left: 50px;
+  }
